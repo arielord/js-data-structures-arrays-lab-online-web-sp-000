@@ -21,3 +21,8 @@ function appendDriver(name){
   let driverAppended = [...drivers, name];
   return driverAppended;
 }
+
+function prependDriver(name){
+  let driverPrepended = [name, ...drivers];
+  return driverPrepended;
+}
